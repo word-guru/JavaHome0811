@@ -1,4 +1,4 @@
-package top.teterin.testSpring;
+package top.popov.testSpring;
 
 public class Fruits implements Fridge{
     @Override

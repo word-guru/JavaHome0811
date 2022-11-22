@@ -1,4 +1,4 @@
-package top.teterin.testSpring;
+package top.popov.testSpring;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -10,12 +10,12 @@
     <context:property-placeholder location="classpath:Warehouse.properties"/>
 
     <bean id="fruits"
-          class="top.teterin.testSpring.Fruits"
+          class="top.popov.testSpring.Fruits"
     scope="prototype">
     </bean>
 
     <bean id="warehouse"
-          class="top.teterin.testSpring.Warehouse">
+          class="top.popov.testSpring.Warehouse">
 
         <!--<property name="section" ref="fruits"/>-->
         <property name="sectionName" value="${Warehouse.sectionName}"/>
